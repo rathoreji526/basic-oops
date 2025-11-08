@@ -1,20 +1,51 @@
 package classesandobject;
 
-public class Student {
-    public int id;
-    public String name;
-    public String dob;
-    public String grade;
-    public String email;
+public class Student extends Person{
+    private int roll_no;
+    private String course;
+    private int marks;
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", dob='" + dob + '\'' +
-                ", grade='" + grade + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+
+    public int getRoll_no() {
+        return roll_no;
+    }
+
+    public void setRoll_no(int roll_no) {
+        this.roll_no = roll_no;
+    }
+
+    public String getCourse() {
+        return course;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
+    }
+
+    public int getMarks() {
+        return marks;
+    }
+
+    public void setMarks(int marks) {
+        this.marks = marks;
+    }
+
+    public int calculate_avg(){
+        return marks/5;
+    }
+
+
+//    public void display_info() {
+//        System.out.println("Student{" +
+//                "Name: "+ getName()+
+//                "roll_no=" + roll_no +
+//                ", course='" + course + '\'' +
+//                ", marks=" + marks +
+//                '}'
+//        );
+//    }
+
+    public void display_info(){
+        System.out.println("Name: "+ getName()+" Roll_no.: "+ getRoll_no() +" Course: " +getCourse() + " Marks: " + getMarks() +" Age: " + getAge() + " Gender: "+getGender());
     }
 }
