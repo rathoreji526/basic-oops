@@ -30,17 +30,7 @@ public class Person {
         this.gender = gender;
     }
 
-
-//    public void display_info() {
-//        System.out.println( "Person{" +
-//                "name='" + name + '\'' +
-//                ", age=" + age +
-//                ", gender='" + gender + '\'' +
-//                '}'
-//        );
-//    }
-
-        public void display_info(){
+    public void display_info(){
         System.out.println("Name :"+ name +"Age :" + age + "Gender :"+gender);
     }
 }

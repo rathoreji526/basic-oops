@@ -1,6 +1,7 @@
 import classesandobject.Person;
 import classesandobject.School;
 import classesandobject.Student;
+import classesandobject.Teacher;
 
 import javax.xml.transform.sax.SAXResult;
 
@@ -35,11 +36,32 @@ public class Main{
         s3.setCourse("BA");
         s3.setMarks(85);
 
+        //teacher t1
+        Teacher t1 = new Teacher();
+        t1.setName("Ashutosh Mishra");
+        t1.setAge(38);
+        t1.setGender("Male");
+        t1.setSalary(35650);
+        t1.setEmployee_id(1001);
+        t1.setSubject("Computer");
+
+        Teacher t2 = new Teacher();
+        t2.setName("Arvind Gupta");
+        t2.setAge(36);
+        t2.setGender("Male");
+        t2.setSalary(39000);
+        t2.setEmployee_id(1002);
+        t2.setSubject("Maths");
+
+
 
         school.addStudent(s1);
         school.addStudent(s2);
         school.addStudent(s3);
+        school.addTeacher(t1);
+        school.addTeacher(t2);
         school.showAllStudents();
+        school.showAllTeachers();
 
     }
 }

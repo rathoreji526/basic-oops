@@ -40,6 +40,6 @@ public class Teacher extends Person{
 //        );
 //    }
         public void display_info() {
-        System.out.println("Name :" + getName() + "Age :" + getAge() + "Gender :" + getGender() + "ID" + getEmployee_id() + "Subject" + getSubject()+ "Salary" + getSalary());
+        System.out.println("Name: " + getName() + " | Age: " + getAge() + " | Gender: " + getGender() + " | ID: " + getEmployee_id() + " | Subject: " + getSubject()+ " | Salary: " + getSalary());
     }
 }

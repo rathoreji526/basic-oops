@@ -46,6 +46,6 @@ public class Student extends Person{
 //    }
 
     public void display_info(){
-        System.out.println("Name: "+ getName()+" Roll_no.: "+ getRoll_no() +" Course: " +getCourse() + " Marks: " + getMarks() +" Age: " + getAge() + " Gender: "+getGender());
+        System.out.println("Name: "+ getName()+" | Roll_no.: "+ getRoll_no() +" | Course: " +getCourse() + " | Marks: " + getMarks() +" | Age: " + getAge() + " | Gender: "+getGender());
     }
 }
