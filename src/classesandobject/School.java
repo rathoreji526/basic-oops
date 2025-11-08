@@ -14,21 +14,21 @@ public class School {
     }
     public void addStudent(Student student){
         students.add(student);
-        System.out.println("Student "+student.getName()+" added successfully.");
+        System.out.println("Student "+student.getName()+" added successfully.✅");
     }
     public void addTeacher(Teacher teacher){
         teachers.add(teacher);
-        System.out.println("Teacher "+teacher.getName()+" added successfully.");
+        System.out.println("Teacher "+teacher.getName()+" added successfully.✅");
     }
     public void showAllStudents(){
-        System.out.println("List of all students");
+        System.out.println("\nList of all students:\n--------------------------------");
         for(Student student : students){
             student.display_info();
             System.out.println("--------------------------------");
         }
     }
     public void showAllTeachers(){
-        System.out.println("List of all teachers");
+        System.out.println("\nList of all teachers:\n--------------------------------");
         for(Teacher teacher : teachers){
             teacher.display_info();
             System.out.println("--------------------------------");
