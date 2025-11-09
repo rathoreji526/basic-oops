@@ -55,6 +55,7 @@ public class Main{
 
 
 
+        //calls
         school.addStudent(s1);
         school.addStudent(s2);
         school.addStudent(s3);
