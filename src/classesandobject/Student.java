@@ -34,17 +34,6 @@ public class Student extends Person{
         return marks/5;
     }
 
-
-//    public void display_info() {
-//        System.out.println("Student{" +
-//                "Name: "+ getName()+
-//                "roll_no=" + roll_no +
-//                ", course='" + course + '\'' +
-//                ", marks=" + marks +
-//                '}'
-//        );
-//    }
-
     public void display_info(){
         System.out.println("Name: "+ getName()+" | Roll_no.: "+ getRoll_no() +" | Course: " +getCourse() + " | Marks: " + getMarks() +" | Age: " + getAge() + " | Gender: "+getGender());
     }

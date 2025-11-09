@@ -62,6 +62,8 @@ public class Main{
         school.addTeacher(t2);
         school.showAllStudents();
         school.showAllTeachers();
+        school.removeStudent(1);
+        school.showAllStudents();
 
     }
 }

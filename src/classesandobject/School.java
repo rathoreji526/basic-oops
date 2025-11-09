@@ -16,6 +16,10 @@ public class School {
         students.add(student);
         System.out.println("Student "+student.getName()+" added successfully.✅");
     }
+    public void removeStudent(int id){
+        students.remove(id-1);
+        System.out.println("Student with id "+(100+id)+" removed successfully.✅");
+    }
     public void addTeacher(Teacher teacher){
         teachers.add(teacher);
         System.out.println("Teacher "+teacher.getName()+" added successfully.✅");
